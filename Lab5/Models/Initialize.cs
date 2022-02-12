@@ -6,7 +6,7 @@ namespace Lab5.Models
 {
     public class Initialize : ModuleIF
     {
-        public double CurrentValue { get; set; }
+        public double CurrentValue { get; set; } 
         public double Compute(double input)
         {
             this.CurrentValue = input;
